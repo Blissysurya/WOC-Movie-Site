@@ -1,0 +1,37 @@
+.searchImage{
+    margin-left:25%;
+    width:50%;
+    
+}
+.searchImage img{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+}
+.text-block{
+    margin-left:25%;
+    width:50%;
+}
+.text-block p{
+    font-size:20px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+#content h1{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+#content{
+    background-image: url("../Images/TreasureMap.jpg");
+}
+body{
+    background-color:rgb(0,0,0);
+}
+

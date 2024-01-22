@@ -1,0 +1,131 @@
+body{
+    background:url("../Images/movie-background2.jpg")
+}
+#carouselExampleIndicators{
+    width:50%;
+    margin-left:25%;
+    margin-bottom:20px;
+};
+.carousel-item{
+    height:90vh;
+}
+.carousel-item img{
+    height:100%
+}
+.boot-icon{
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+li{
+    text-align:center;
+}
+.highlight{
+    color:red;
+}
+.genre-item{
+    background-color:rgb(173,216,230);
+}
+.dropdown-menu > *{
+    margin:10px;
+    padding:5px;
+}
+/*.dropdown-menu{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    
+}
+#genre-list{
+    grid-column-start:1;
+    grid-column-end:-1;
+}
+#clear{
+    grid-row-start:2;
+   
+}*/
+.beautify{
+    display:grid;
+        grid-auto-flow: column;
+        overflow-x:scroll;
+        gap:7px
+}
+.genre-item:hover{
+    cursor:pointer;
+}
+.beautify > *{
+    overflow:hidden;
+    height:600px;
+   width:400px;
+   margin:20px
+}  
+
+img{
+    max-width:100%;
+    max-height:500px;
+    border-radius:4px;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+.search_box{
+    height:300px;
+    width:210px;
+    overflow:auto;
+    background:rgb(184,184,184,0.3);
+    z-index:1;
+    position:absolute;
+    top:80%
+}
+.search_box a{
+    width:100%;
+    height:auto;
+    color:#fff;
+    display:flex;
+    gap:5px;
+    border:1px solid white;
+}
+.search_box a img{
+    height:45px;
+    width:40px;
+    border-radius:5px;
+    
+}
+.search_box a div h6{
+    font-size:18px;
+    color:black;
+    
+}
+.search_box a div{
+    order:1;
+}
+.search_box a:hover{
+    background-color: rgb(184,184,184,0.4);
+}
+#type_something{
+    position:relative;
+}
+.search_box::-webkit-scrollbar{
+    width:7px;
+    background:rgb(184,184,184,0.3);
+    border-radius:20px;
+}
+.search_box::-webkit-scrollbar-thumb{
+    background:rgb(184,184,184,0.9);
+    border-radius:20px
+}
+.api-movies img{
+    border:2.5px solid #FFC300;
+    border-radius:5px
+} 
+.api-movies h3{
+    color:#FFC300
+}
+.sorted-movies > *::-webkit-scrollbar{
+    visibility:hidden
+}
+#list-label{
+    font-weight:bold;
+}
+.navbar{
+    background-color:black !important
+}

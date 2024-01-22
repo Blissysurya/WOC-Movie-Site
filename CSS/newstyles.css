@@ -1,0 +1,86 @@
+#modal-overlay{
+    
+    height:800px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100% ;
+    display:flex;
+    justify-content:center;
+    align-items:center
+
+    
+    
+}
+#modal-box{
+    background-color:white;
+    display:grid;
+    flex-direction:column;
+    width:500px; 
+    gap:100px;
+    padding:50px ;
+    border:2px solid black;
+    border-radius:10px;
+    grid-area:auth;
+    max-height:72vh
+    
+}
+#modal-content{
+    display:flex;
+    flex-direction:column;
+    gap:10px
+}
+#modal-header label{
+    font-size:3rem;
+    font-weight: bold;
+    text-align: center
+
+}
+#modal-footer{
+    display:flex;
+    justify-content:center;
+}
+button{
+    background-color:orange;
+    border-radius:5px;
+}
+.cancel:hover{
+    background-color:red
+}
+.go-on:hover{
+    background-color:green
+}
+.signinheading{
+    margin-left:35%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifinematic poster ;
+}
+.username, .email, .pass{
+    margin-left:25%;
+    
+}
+
+@media (min-height:638px){
+
+.cherry{
+   max-height:72vh;
+   border: 2px solid black;
+   border-radius:5px;
+   width:auto
+}}
+.email{
+  margin-bottom:5px;
+  
+}
+@media (max-width:768px){
+    .imagediv{
+        display:none
+    }
+}
+@media (max-height:638px){
+    .cherry{
+        border: 2px solid black;
+        border-radius:5px;
+        height:auto;
+        max-height:72vh
+    }
+}

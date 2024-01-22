@@ -1,0 +1,105 @@
+body{
+    background:url("../Images/tv-background.jpg")
+}
+#carouselExampleIndicators{
+    width:50%;
+    margin-left:25%;
+    margin-bottom:20px;
+};
+.carousel-item{
+    height:90vh;
+}
+.carousel-item img{
+    height:100%
+}
+.boot-icon{
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+li{
+    text-align:center;
+}
+.beautify{
+    display:grid;
+        grid-auto-flow: column;
+        overflow-x:scroll;
+        gap:7px
+}
+.beautify > *{
+    overflow:hidden;
+    height:600px;
+   width:400px;
+   margin:20px
+}  
+
+img{
+    max-width:100%;
+    max-height:500px;
+    border-radius:4px;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+.search_box{
+    height:300px;
+    width:210px;
+    overflow:auto;
+    background:rgb(184,184,184,0.3);
+    z-index:1;
+    position:absolute;
+    top:80%
+}
+.search_box a{
+    width:100%;
+    height:auto;
+    color:#fff;
+    display:flex;
+    gap:5px;
+    border:1px solid white;
+}
+.search_box a img{
+    height:45px;
+    width:40px;
+    border-radius:5px;
+    
+}
+.search_box a div h6{
+    font-size:18px;
+    color:black;
+    
+}
+.search_box a div{
+    order:1;
+}
+.search_box a:hover{
+    background-color: rgb(184,184,184,0.4);
+}
+#type_something{
+    position:relative;
+}
+.search_box::-webkit-scrollbar{
+    width:7px;
+    background:rgb(184,184,184,0.3);
+    border-radius:20px;
+}
+.search_box::-webkit-scrollbar-thumb{
+    background:rgb(184,184,184,0.9);
+    border-radius:20px
+}
+.tv-genres-list > *::-webkit-scrollbar{
+    visibility:hidden;
+}
+
+.api-tv img{
+    border:2.5px solid #FFC300; 
+}
+.api-tv h3{
+    color:#FFC300;
+}
+.genre-item:hover{
+    cursor:pointer
+}
+.navbar {
+    background-color:black !important
+}
